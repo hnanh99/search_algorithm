@@ -11,3 +11,10 @@ vị trí của mục tiêu (bắt đầu của mảng là 0)
 2. Binary Search 
 - Thuật toán tìm kiếm nhị phâm, còn gọi là tìm kiếm nửa khoảng
 - Sử dụng đệ quy
+3. Ternary Search 
+- Tương tự thuật toán tìm kiếm trên, nhưng là tam phân
+4. Interpolation Search 
+- Dựa trên Binary Search, thay đổi vị trí so sánh bằng phép tính nội suy như sau:
+Search = left + (right - left) * 1/2
+Trong công thức trên chúng ta sẽ thay giá trị 1/2 bằng biểu thức sau:
+(X - T[left]) / (T[right] - T[left])
